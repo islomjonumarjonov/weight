@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  html {
+    background-color: rgb(3, 3, 78);
+  }
+  .container {
+    @apply flex flex-col items-center w-full mt-5 text-white;
+    max-width: 600px;
+  }
+}
